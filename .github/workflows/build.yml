@@ -1,10 +1,6 @@
 name: Build
 on:
   workflow_dispatch:
-      inputs:
-        package_name:
-          description: "Package name of the gameee:"
-          required: true
 
 jobs:
   build:
